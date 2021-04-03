@@ -17,6 +17,7 @@ Symbol 'e' means "empty regexp".
 3. (ab+ac)ad\*b
 4. ab+c
 5. a+b+c+ad\*
+6. 101010\*1
 
 ## Result
 ### Legend
