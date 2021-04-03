@@ -29,5 +29,5 @@ Symbol 'e' means "empty regexp".
 ### Editing
 You can drag the vertices as you like.
 
-![alt text](examples/example1.gif "Example")
+![alt text](example1.gif "Example")
 
