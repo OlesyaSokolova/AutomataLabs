@@ -15,7 +15,7 @@ Symbol 'e' means "empty regexp".
 ### Legend
 1. q0 - start state
 2. q1 - end state
-3. qo and q1 are indicated in turquoise, other states - in lilac.
+3. Start state and end state are indicated in turquoise, other states - in lilac.
 
 ### Editing
 You can drag the vertices as you like.
