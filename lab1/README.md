@@ -3,13 +3,20 @@ This program builds a finite state machine based on a regular expression that is
 The result is shown as Moore diagram.
 
 ## Restrictions on the input expression
-Input regexp can consists only of letters, digits and symbols of operations described below.
+Input regexp can consists only of letters, digits, brackets and symbols of operations described below.
 Symbol 'e' means "empty regexp".
 
 ## Acceptable operations
 1. Concatenation: ab (no symbol for this operation)
 2. Disjunction: a+b
 3. Iteration: a*
+
+## Examples of input
+1. x1*0*
+2. a
+3. (ab+ac)ad*b
+4. ab+c
+5. a+b+c+ad*
 
 ## Result
 ### Legend
