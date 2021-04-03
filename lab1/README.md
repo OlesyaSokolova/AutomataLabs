@@ -9,14 +9,14 @@ Symbol 'e' means "empty regexp".
 ## Acceptable operations
 1. Concatenation: ab (no symbol for this operation)
 2. Disjunction: a+b
-3. Iteration: a*
+3. Iteration: a\*
 
 ## Examples of input
-1. x1*0*
+1. x1\*0\*
 2. a
-3. (ab+ac)ad*b
+3. (ab+ac)ad\*b
 4. ab+c
-5. a+b+c+ad*
+5. a+b+c+ad\*
 
 ## Result
 ### Legend
