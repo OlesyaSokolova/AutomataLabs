@@ -1,4 +1,4 @@
-# AutomataLabs
+# Finite state machine
 This program builds a finite state machine based on a regular expression that is fed to the input. 
 The result is shown as Moore diagram.
 
