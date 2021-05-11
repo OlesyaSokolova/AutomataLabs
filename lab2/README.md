@@ -15,7 +15,7 @@ Symbol 'e' means "empty regexp".
 Start symbol = S
 N = {S, A, B}
 ∑ = {a, b}
-p = {S->aAB|BA, A->BBB|a, B->AS|b}
+P = {S->aAB|BA, A->BBB|a, B->AS|b}
 
 ## Result
 ![alt text](example2.gif "Example")
