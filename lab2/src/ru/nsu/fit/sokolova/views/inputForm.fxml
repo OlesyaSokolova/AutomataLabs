@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.fit.sokolova.controllers.InputFormController">
+   <children>
+      <Label layoutX="195.0" layoutY="38.0" prefHeight="35.0" prefWidth="359.0" text="Context Free Grammar Processor" textFill="#268134">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="86.0" text="Describe your grammar as G = {N, ∑, P, S}">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="188.0" prefHeight="30.0" prefWidth="374.0" text="finite set of nonterminal characters    N = {">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="249.0" prefHeight="30.0" prefWidth="381.0" text=" finite set of terminal characters          ∑ = {">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="303.0" prefHeight="30.0" prefWidth="382.0" text=" set of rules                                          P = {">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="359.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="139.0" prefHeight="30.0" prefWidth="382.0" text="start symbol                             ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nonterminalsSetInput" layoutX="402.0" layoutY="185.0" prefHeight="26.0" prefWidth="278.0" text="S, ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="terminalsSetInput" layoutX="402.0" layoutY="243.0" prefHeight="26.0" prefWidth="278.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="685.0" layoutY="189.0" prefHeight="30.0" prefWidth="19.0" text="}">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="685.0" layoutY="246.0" prefHeight="30.0" prefWidth="19.0" text="}">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="685.0" layoutY="307.0" prefHeight="30.0" prefWidth="19.0" text="}">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="349.0" text="Example:" textFill="#268134">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="412.0" prefHeight="18.0" prefWidth="186.0" text="N = { S, A, B }" textFill="#268134">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="436.0" prefHeight="18.0" prefWidth="186.0" text="∑ = { a, b }" textFill="#268134">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="461.0" prefHeight="18.0" prefWidth="234.0" text="P = { S-&gt;aAB|BA, A-&gt;BBB|a, B-&gt;AS|b }" textFill="#268134">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="384.0" text="G = { N, ∑, P, S } " textFill="#268134">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="startSymbolInput" layoutX="402.0" layoutY="130.0" prefHeight="43.0" prefWidth="35.0" text="S">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="rulesSetInput" layoutX="402.0" layoutY="305.0" prefHeight="107.0" prefWidth="278.0" text="&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="startButton" layoutX="309.0" layoutY="439.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="410.0" text="Process grammar" textFill="#268134">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
