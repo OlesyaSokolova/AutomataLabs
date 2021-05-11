@@ -9,7 +9,6 @@ import java.util.Collection;
 
 public class Utils
 {
-
     public static ArrayList<String> createAlphabet(ArrayList<?> a, ArrayList<?> b)
     {
         ArrayList<String> aStrings = new ArrayList<>();

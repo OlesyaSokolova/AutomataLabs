@@ -10,6 +10,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
 import javafx.stage.Stage;
 import ru.nsu.fit.sokolova.algorithms.AlgorithmName;
+import ru.nsu.fit.sokolova.algorithms.implementations.ChomskyNormalForm.NewNonterminalsCounter;
 import ru.nsu.fit.sokolova.resultPresenters.preparers.ResultPreparer;
 import ru.nsu.fit.sokolova.views.ViewSettings;
 
@@ -36,6 +37,9 @@ public class ResultController
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            NewNonterminalsCounter.resetCounter();
+            Stage thisStage = (Stage)startButton.getScene().getWindow();
+            thisStage.close();
             Stage stage = new Stage();
             stage.setTitle(ViewSettings.PROGRAM_TITLE);
             stage.setScene(new Scene(root, ViewSettings.INPUT_FORM_WIDTH, ViewSettings.INPUT_FORM_HEIGHT));
