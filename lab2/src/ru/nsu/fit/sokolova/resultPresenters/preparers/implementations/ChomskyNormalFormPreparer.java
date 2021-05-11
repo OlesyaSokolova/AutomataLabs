@@ -26,7 +26,7 @@ public class ChomskyNormalFormPreparer extends ResultPreparer
         title.setAlignment(Pos.TOP_CENTER);
         title.setWrapText(true);
 
-        Label startSymbol = new Label("Start symbol S = " + processedGrammar.getStartSymbol().toString());
+        Label startSymbol = new Label("Start symbol = " + processedGrammar.getStartSymbol().toString());
         startSymbol.setFont(new Font(ViewSettings.MAIN_FONT));
 
         Label nonterminals = new Label(arrayToString("N", processedGrammar.getNonterminals()));
