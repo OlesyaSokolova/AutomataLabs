@@ -1,2 +1,2 @@
 # Automata Laboratory Works
-Each folder contains a short description of the program (and a demo-gif).
+Each folder contains a brief description of the program (and a demo-gif).
